@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="362" version="1.1" width="534" xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+<text font-family="Dialog" font-size="12" x="23" y="211">
+Student</text>
+<ellipse cx="44" cy="159" fill="#000000" rx="8.0" ry="7.5" stroke="#000000" stroke-width="1"/>
+<ellipse cx="44" cy="159" fill="#ffffff" rx="7.0" ry="6.5" stroke="#ffffff" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="44" x2="44" y1="167" y2="182"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="34" x2="54" y1="172" y2="172"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="44" x2="39" y1="182" y2="197"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="44" x2="49" y1="182" y2="197"/>
+<ellipse cx="395" cy="50" fill="#000000" rx="125.0" ry="36.0" stroke="#000000" stroke-width="1"/>
+<ellipse cx="395" cy="50" fill="#ffffff" rx="124.0" ry="35.0" stroke="#ffffff" stroke-width="1"/>
+<a xlink:href="UC_DatabaseServer_Student_ExecuteCommandsOnServer.html" target="_parent" >
+<text font-family="Dialog" font-size="12" x="283" y="51">
+Execute Commands on Database Server</text>
+</a>
+<ellipse cx="347" cy="152" fill="#000000" rx="77.0" ry="26.0" stroke="#000000" stroke-width="1"/>
+<ellipse cx="347" cy="152" fill="#ffffff" rx="76.0" ry="25.0" stroke="#ffffff" stroke-width="1"/>
+<a xlink:href="UC_DatabaseServer_Student_UploadFilesToServer.html" target="_parent" >
+<text font-family="Dialog" font-size="12" x="284" y="153">
+Upload Files for Server</text>
+</a>
+<ellipse cx="360" cy="235" fill="#000000" rx="90.0" ry="29.0" stroke="#000000" stroke-width="1"/>
+<ellipse cx="360" cy="235" fill="#ffffff" rx="89.0" ry="28.0" stroke="#ffffff" stroke-width="1"/>
+<a xlink:href="UC_DatabaseServer_Student_DownloadFilesFromServer.html" target="_parent" >
+<text font-family="Dialog" font-size="12" x="284" y="236">
+Download Files from Server</text>
+</a>
+<polyline fill="none" points="53,159 311,76" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="143" y="100">
+ </text>
+<polyline fill="none" points="54,172 271,157" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="130" y="146">
+ </text>
+<polyline fill="none" points="49,221 270,230" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="129" y="206">
+ </text>
+<ellipse cx="352" cy="321" fill="#000000" rx="82.0" ry="27.0" stroke="#000000" stroke-width="1"/>
+<ellipse cx="352" cy="321" fill="#ffffff" rx="81.0" ry="26.0" stroke="#ffffff" stroke-width="1"/>
+<a xlink:href="UC_DatabaseServer_Student_RemoveFilesFromServer.html" target="_parent" >
+<text font-family="Dialog" font-size="12" x="284" y="322">
+Remove File from Server</text>
+</a>
+<polyline fill="none" points="49,221 294,301" stroke="#000000" stroke-width="1"/>
+</svg>

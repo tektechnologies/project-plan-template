@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Document Types Reference</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="project_docs.css" />
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	</head>
+	<body class="container" >
+		<header>
+			<h2>Document Types Reference</h2>
+			<p>The following are standards for various document types used for software design.  A typical document name will begin with the two-letter type prefix, underscore, project name, underscore, and document name.  For example, a Use Case document to describe the user printing in a project called Example would have a name of <kbd>UC_Example_User_Prints.doc</kbd></p>
+		</header>
+		<br />
+		<table border="1" width="100%" >
+		<colgroup>
+			<col width="15%" align="left" valign="top" />
+			<col width="15%" align="left" valign="top" />
+			<col width="70%" align="left" valign="top" />
+		</colgroup>
+		<thead>
+		<tr>
+			<th>Type</th>
+			<th>Prefix</th>
+			<th>Description</th>
+		</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Specifications</td>
+				<td>SP</td>
+				<td>These documents define the scope of a project and the completion conditions.  No project should begin without a specification document.</td>
+			</tr>
+			<tr>
+				<td>Use Case</td>
+				<td>UC</td>
+				<td>This describes both Use Case Diagrams and Use Case Documents.  A typcial file name is UC_ProjectName_PrimaryActor_ActivityName where the activity name is the name of the action covered by the use case.</td>
+			</tr>
+			
+			<tr>
+				<td>Data Dictionary</td>
+				<td>DD</td>
+				<td>If the project includes a list of data items to be stored, that list goes here.</td>
+			</tr>
+			<tr>
+				<td>SQL</td>
+				<td>SQ</td>
+				<td>Documents containing SQL for either DDL or DML.</td>
+			</tr>
+			<tr>
+				<td>Entity Relationship Diagrams</td>
+				<td>ER</td>
+				<td>Diagrams that describe the relationships between database entities.</td>
+			</tr>
+			<tr>
+				<td>State Chart</td>
+				<td>SC</td>
+				<td>UML style State Chart Diagrams</td>
+			</tr>
+			<tr>
+				<td>Class Diagrams</td>
+				<td>CD</td>
+				<td>UML Style Class Diagrams</td>
+			</tr>
+			<tr>
+				<td>Sequence Diagrams</td>
+				<td>SE</td>
+				<td>UML style Sequence Diagrams</td>
+			</tr>
+			<tr>
+				<td>Activity Diagrams</td>
+				<td>AD</td>
+				<td>UML style Activity Diagrams (the ones with "swim lanes")</td>
+			</tr>
+			<tr>
+				<td>Deployment Diagrams</td>
+				<td>DP</td>
+				<td>UML style Component and Deployment Diagrams.  These diagrams explain how to package the software for dispersal.</td>
+			</tr>
+			<tr>
+				<td>Notes</td>
+				<td>NT</td>
+				<td>These documents carry general notes and information that does not fit into one of the other document types.</td>
+			</tr>
+			<tr>
+				<td>XML Documents</td>
+				<td>XL</td>
+				<td>Any documents used to define the XML documents needed for the project.  This includes XLST, schemas, and XSL-FO as well as others.</td>
+			</tr>
+			<tr>
+				<td>Index</td>
+				<td>IN</td>
+				<td>An index document serves as a table of contents for the other documents associated with a project.  The index lists all the other documents, often with hyperlinks to those documents, and includes a brief description of the item.  There should be at least one index file per project, though there may be more if waranted by circumstance.</td>
+			</tr>
+		</tbody>
+		</table>
+		<br /><br />
+		<footer>
+			General Design Templates<br />
+			
+		</footer>
+	</body>
+</html>
